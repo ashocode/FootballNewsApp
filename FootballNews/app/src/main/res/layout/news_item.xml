@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tint_light_color"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dp4"
+    android:paddingEnd="@dimen/dp4"
+    android:paddingLeft="@dimen/dp4"
+    android:paddingRight="@dimen/dp4"
+    android:paddingStart="@dimen/dp4"
+    android:paddingTop="@dimen/dp4">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/dp4"
+        android:paddingEnd="@dimen/dp4"
+        android:paddingLeft="@dimen/dp4"
+        android:paddingRight="@dimen/dp4"
+        android:paddingStart="@dimen/dp4"
+        android:paddingTop="@dimen/dp4"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sp20"
+        android:textStyle="bold"
+        tools:text="@string/news_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/dp4"
+        android:paddingLeft="@dimen/dp4"
+        android:paddingRight="@dimen/dp4"
+        android:paddingStart="@dimen/dp4">
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp12"
+            android:gravity="start"
+            tools:text="@string/author" />
+
+        <TextView
+            android:id="@+id/section"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp12"
+            android:gravity="center"
+            tools:text="@string/news_section" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp12"
+            tools:text="@string/news_date" />
+
+    </LinearLayout>
+
+</LinearLayout>

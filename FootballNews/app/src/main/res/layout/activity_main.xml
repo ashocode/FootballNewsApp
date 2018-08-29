@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.footballnews.MainActivity">
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/tint_light_color" />
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/background_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_background" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp8"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/dp4"
+        android:text="@string/title"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/sp20"
+        android:textStyle="bold"
+        android:tint="@color/tint_light_color" />
+
+    <TextView
+        android:id="@+id/no_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/dp8"
+        android:background="@color/tint_light_color"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/dp4"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sp20"
+        android:textStyle="bold"
+        android:tint="@color/tint_light_color"
+        tools:text="@string/empty" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/news_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/dp8"
+            android:layout_marginEnd="@dimen/dp8"
+            android:layout_marginLeft="@dimen/dp8"
+            android:layout_marginRight="@dimen/dp8"
+            android:layout_marginStart="@dimen/dp8"
+            android:layout_weight="1">
+
+        </ListView>
+
+    </LinearLayout>
+
+</RelativeLayout>

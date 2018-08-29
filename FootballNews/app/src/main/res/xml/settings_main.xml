@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <ListPreference
+        android:defaultValue="@string/small_number"
+        android:entries="@array/Language"
+        android:entryValues="@array/Language_values"
+        android:key="@string/number_of_articles"
+        android:summary="@string/small_number"
+        android:title="@string/number_of_articles" />
+
+    <ListPreference
+        android:defaultValue="@string/united_kingdom"
+        android:entries="@array/Origin"
+        android:entryValues="@array/Origin_values"
+        android:key="@string/origin"
+        android:summary="@string/united_kingdom"
+        android:title="@string/origin" />
+
+</PreferenceScreen>

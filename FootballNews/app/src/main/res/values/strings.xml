@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="background_image">background image</string>
+    <string name="title">Hottest Football News</string>
+    <string name="empty">No news found!</string>
+    <string name="no_internet">No internet connection!</string>
+    <string name="news_title">title</string>
+    <string name="news_section">section</string>
+    <string name="news_date">date</string>
+    <string name="author">author</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Football News Settings</string>
+    <string name="number_of_articles">Number of articles to show</string>
+    <string name="small_number">10</string>
+    <string name="medium_number">30</string>
+    <string name="big_number">50</string>
+    <string name="origin">Country of origin</string>
+    <string name="united_kingdom">United Kingdom</string>
+    <string name="united_states">USA</string>
+    <string name="australia">Australia</string>
+    <string name="page_size">page-size</string>
+    <string name="production">production-office</string>
+</resources>

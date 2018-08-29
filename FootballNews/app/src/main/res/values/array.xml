@@ -1,0 +1,25 @@
+<resources>
+    <string-array name="Language">
+        <item>@string/small_number</item>
+        <item>@string/medium_number</item>
+        <item>@string/big_number</item>
+    </string-array>
+
+    <string-array name="Language_values">
+        <item>@string/small_number</item>
+        <item>@string/medium_number</item>
+        <item>@string/big_number</item>
+    </string-array>
+
+    <string-array name="Origin">
+        <item>@string/united_kingdom</item>
+        <item>@string/united_states</item>
+        <item>@string/australia</item>
+    </string-array>
+
+    <string-array name="Origin_values">
+        <item>@string/united_kingdom</item>
+        <item>@string/united_states</item>
+        <item>@string/australia</item>
+    </string-array>
+</resources>
